@@ -7,12 +7,13 @@ public class pessoa {
 	}
 	private String nome;
 	private String sobrenome;
-	private String idade;
+	private int idade;
 	
-	public String getIdade() {
+
+	public int getIdade() {
 		return idade;
 	}
-	public void setIdade(String idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 	public String getNome() {
